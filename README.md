@@ -1,7 +1,11 @@
-Rar Password Cracker
+#RarPassword Cracker in python.
 
-usage: python bruteforce.py -f <rarfilename> -d <dictionary>
+I had to bruteforce a rar file in a ctf so wrote some ad-hoc code in python. 
+Works in Linux.
 
-Works in windows 7
+```python
+python bruteforce -f filetocrack.rar -c charset -n sizeofpassword
 
-Download a dictionary file or make your own. 
+python bruteforce -f example.rar -c abcdefghijklmnopqrst0123 -n 6
+```
+
