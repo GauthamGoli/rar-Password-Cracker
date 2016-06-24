@@ -47,7 +47,7 @@ def main():
         extractFile(arFile,attempt)
 
         #uncomment below lines if you want to use multiple threads
-        #t = Thread(target=extractFile, args=(rFile,attempt))
+        #t = Thread(target=extractFile, args=(arFile,attempt))
         #t.start()
 
 
